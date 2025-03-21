@@ -1,42 +1,31 @@
 /* style.css */
 
-/* 
-   1. Body with background image 
-   2. Container with semi-opaque background for readability
-   3. Softer color palette 
-*/
-
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Sofia', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: url("bg.jpg") no-repeat center center fixed; 
-    background-size: cover; /* Make the background image fill the screen */
+    background-size: cover;
     text-align: center;
-    /* A subtle overlay color can help text stand out if the image is bright:
-       background-color: rgba(255, 255, 255, 0.2);
-    */
 }
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.9); /* White with slight transparency for contrast */
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.9);
     padding: 50px 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-top: 60px;
-    margin-bottom: 60px;
 }
 
 h1 {
     color: #d6336c;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     color: #444;
     margin-bottom: 1rem;
@@ -48,7 +37,7 @@ button {
     padding: 12px 24px;
     border: none;
     border-radius: 6px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     cursor: pointer;
     margin-top: 1.5rem;
     transition: background 0.3s;
