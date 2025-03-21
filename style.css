@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5e6e8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #d6336c;
+}
+
+button {
+    background: #d6336c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #b82e5e;
+}
+
+#hiddenMessage {
+    display: none;
+    margin-top: 20px;
+}
